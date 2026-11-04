@@ -1,0 +1,28 @@
+name: "signature"
+description: "Traits for cryptographic signature algorithms (e.g. ECDSA, Ed25519)"
+third_party {
+  version: "2.2.0"
+  license_type: NOTICE
+  last_upgrade_date {
+    year: 2026
+    month: 11
+    day: 4
+  }
+  homepage: "https://crates.io/crates/signature"
+  identifier {
+    type: "crates.io"
+    value: "signature"
+    version: "2.2.0"
+    primary_source: true
+  }
+  identifier {
+    type: "Archive"
+    value: "https://static.crates.io/crates/signature/signature-2.2.0.crate"
+    version: "2.2.0"
+  }
+  identifier {
+    type: "Git"
+    value: "https://github.com/RustCrypto/traits"
+    version: "5adcd4819b380b4aaec2b57c6bf3f2239a109060"
+  }
+}
